@@ -4,12 +4,16 @@ This bootcamp is built to help partner get started in their technical understand
 
 ## Module 1
 
-Provision and Deploy a Windows 365 Cloud PC
+Provision and Deploy a Windows 365 Enterprise
 1. Assign Licenses to users
 2. Create a user group
 3. Create a provisioning policy
 4. Create a dynamic group for Cloud PCs
 5. Configure User Settings for Cloud PCs
+
+Provision and Deploy Windows 365 Frontline
+1. Create a user group
+2. Create a Frontline Provisioning Policy
 
 ## Module 2
 

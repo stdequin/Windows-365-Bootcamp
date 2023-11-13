@@ -27,4 +27,8 @@ Managing a Cloud PC
 4. Reprovision
 5. Restore
 6. Manage RDP Settings
-7. 
+
+## _optional_ Module 4 Deprovisioning Cloud PCs
+
+1. Remove licenses
+2. Stop grace period

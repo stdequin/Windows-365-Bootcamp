@@ -8,7 +8,8 @@ Provision and Deploy a Windows 365 Cloud PC
 1. Assign Licenses to users
 2. Create a user group
 3. Create a provisioning policy
-4. Create a dynamic group for Cloud PCs 
+4. Create a dynamic group for Cloud PCs
+5. Configure User Settings for Cloud PCs
 
 ## Module 2
 

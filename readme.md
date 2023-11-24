@@ -5,7 +5,7 @@ This bootcamp is built to help partner get started in their technical understand
 ## Module 1
 
 Provision and Deploy a Windows 365 Enterprise
-1. [Assign Licenses to users](/Module1/Licenses)
+1. [Assign Licenses to users](Module1/Licenses.md)
 2. Create a user group
 3. Create a provisioning policy
 4. Create a dynamic group for Cloud PCs

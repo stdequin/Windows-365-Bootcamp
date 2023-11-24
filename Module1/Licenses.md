@@ -13,11 +13,13 @@ Use the Microsoft Admin Center (https://admin.microsoft.com) to assign a license
 
 ## Group Based License Assignment
 
+Use the Entra Admin Center (https://entra.microsoft.com) to assign a license to a group
+
 ## Windows 365 Enterprise
 
 1. Navigate to the Intune Management console (https://intune.microsoft.com)
 2. Go to Devices -> Provisioning\Windows 365 -> All Cloud PCs
-3. Verify that you see your licensed user, with "Not Provisioned" in their status.
+3. Verify that you see your licensed user, with "Not Provisioned" in the status.
 
 The "Not Provisioned" status is because only condition 1 (user is assigned a license) above is true.
 

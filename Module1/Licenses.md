@@ -7,6 +7,12 @@ There are two ways to assign licenses to users, either through group based licen
 1. The user has a Windows 365 Enterprise License assigned to them.
 2. The user is a member of a group that is targeted by a Provisioning Policy.
 
+## Task
+
+Assign a Windows 365 Enterprise license to a user, using whichever method you prefer.
+
+**Q.** Which method do your customers normally use for license assignment? What do you need to consider when using Groub Based Assignment of licenses?
+
 ## Direct License Assignment
 
 Use the Microsoft Admin Center (https://admin.microsoft.com) to assign a license.

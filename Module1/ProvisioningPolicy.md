@@ -22,7 +22,9 @@ Create a provisioning policy with the following settings :-
 | Assignment | sg-Engineering |
 
 **Q.** What is the preferred method Join and Networking method, and why?
+
 **Q.** When creating a provisioning policy, what is the advantage to select the "Geography" only, and not specify a "Region"?
+
 **Q.** What happens to the gallery image each month, and what does this mean to existing, and newly provisioned Cloud PCs?
 
 ## Creating a Windows 365 Enterprise Provisioning Policy

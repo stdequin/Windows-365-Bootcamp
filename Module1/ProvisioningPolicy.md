@@ -4,6 +4,25 @@
 
 A Provisioning Policy is a configuration in Windows 365 that defines what Cloud PC's to create for which users. The Provisioning policy defines the License Type,Join Type, Region, Language, Image, and Users.
 
+## Task
+
+Create a provisioning policy with the following settings :-
+
+| Setting | Value |
+| -- | -- |
+| License Type | Enterprise |
+| Join Type | Microsoft Entra Join |
+| Network | Microsoft hosted network |
+| Geography | European Union |
+| Region | Automatic |
+| Use Entra single sign-on | Yes |
+| Image | Gallery (Windows 11 Enterprise + M365 Apps |
+| License Type | Enterprise |
+| Language & Region | German |
+| Assignment | sg-Engineering |
+
+**Q.** 
+
 ## Creating a Windows 365 Enterprise Provisioning Policy
 
 1. Navigate to the Intune Management console (https://intune.microsoft.com)

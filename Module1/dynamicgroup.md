@@ -14,7 +14,7 @@ Create a Dynamic Group based on the Provisioning Policy you created in the previ
 | Membership | Provisioning Policy Name |
 
 
-## Creating a Dyanmic Group
+## Creating a Dynamic Group
 
 1. Navigate to the Groups tab inside Intune or Entra
 2. Select "New Group" -> Security

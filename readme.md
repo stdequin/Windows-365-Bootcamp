@@ -21,7 +21,7 @@ Provision and Deploy a Windows 365 Enterprise
 
 Provision and Deploy Windows 365 Frontline
 1. [Create a user group](Module1/frontlinegroup.md)
-2. Create a Frontline Provisioning Policy
+2. [Create a Frontline Provisioning Policy](Module1/frontlineprovp.md)
 
 ## Module 2
 

@@ -20,7 +20,7 @@ Provision and Deploy a Windows 365 Enterprise
 3. [Create a dynamic group for Cloud PCs](Module1/dynamicgroup.md)
 
 Provision and Deploy Windows 365 Frontline
-1. [Create a user group](module1/frontlinegroup.md)
+1. [Create a user group](Module1/frontlinegroup.md)
 2. Create a Frontline Provisioning Policy
 
 ## Module 2

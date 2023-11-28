@@ -17,7 +17,6 @@ Create a provisioning policy with the following settings :-
 | Region | Automatic |
 | Use Entra single sign-on | Yes |
 | Image | Gallery (Windows 11 Enterprise + M365 Apps |
-| License Type | Enterprise |
 | Language & Region | German |
 | Assignment | sg-Engineering |
 

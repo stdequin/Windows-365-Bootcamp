@@ -33,7 +33,7 @@ Securing a Cloud PC
 
 Managing a Cloud PC
 
-1. Deploy M365 Apps
+1. Deploy Apps
 2. Resize
 3. Reprovision
 4. Restore

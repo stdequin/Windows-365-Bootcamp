@@ -22,9 +22,9 @@ Create a provisioning policy with the following settings :-
 | Cloud PC Size | Cloud PC Frontline 2vCPU/8GB/256GB |
 
 **Q.** How did this provisioning policy creation differ from Windows 365 Enterprise?
-**Q.** 
+**Q.** What would happen if there were more member of the security group, than available Frontline Cloud PC licenses?
 
-## Creating a Windows 365 Enterprise Provisioning Policy
+## Creating a Windows 365 Frontline Provisioning Policy
 
 1. Navigate to the Intune Management console (https://intune.microsoft.com)
 2. Go to Devices -> Provisioning\Windows 365 -> Provisioning Policies

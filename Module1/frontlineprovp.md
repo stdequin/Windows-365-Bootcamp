@@ -1,4 +1,4 @@
-# Creating a Provisioning Policy
+# Creating a Frontline Provisioning Policy
 
 ## Introduction
 
@@ -10,22 +10,19 @@ Create a provisioning policy with the following settings :-
 
 | Setting | Value |
 | -- | -- |
-| License Type | Enterprise |
+| License Type | Frontline |
 | Join Type | Microsoft Entra Join |
 | Network | Microsoft hosted network |
 | Geography | European Union |
 | Region | Automatic |
 | Use Entra single sign-on | Yes |
 | Image | Gallery (Windows 11 Enterprise + M365 Apps |
-| License Type | Enterprise |
 | Language & Region | German |
-| Assignment | sg-Engineering |
+| Assignment | sg-Frontline |
+| Cloud PC Size | Cloud PC Frontline 2vCPU/8GB/256GB |
 
-**Q.** What is the preferred method Join and Networking method, and why?
-
-**Q.** When creating a provisioning policy, what is the advantage to select the "Geography" only, and not specify a "Region"?
-
-**Q.** What happens to the gallery image each month, and what does this mean to existing, and newly provisioned Cloud PCs?
+**Q.** How did this provisioning policy creation differ from Windows 365 Enterprise?
+**Q.** 
 
 ## Creating a Windows 365 Enterprise Provisioning Policy
 
@@ -44,7 +41,7 @@ Create a provisioning policy with the following settings :-
 13. Next
 14. Select the Language & Region as "German" - This applies language and region settings during provisioning for the Operating System **and** Microsoft 365 Apps.
 15. Next
-16. Assign the Policy to the "sg-Engineering" group.
+16. Assign the Policy to the "sg-Frontline" group, selecting the cloud PC size "2vCPU/8GB/256GB"
 17. Under the "All Cloud PC's" tab, monitor to check that provisioning has started for licensed members of this group.
 
 

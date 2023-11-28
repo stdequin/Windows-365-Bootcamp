@@ -26,7 +26,7 @@ Provision and Deploy Windows 365 Frontline
 ## Module 2
 
 Securing a Cloud PC
-1. Security Baseline Policy
+1. [Security Baseline Policy](Module2/securitybaseline.md)
 2. Conditional Access
 
 ## Module 3

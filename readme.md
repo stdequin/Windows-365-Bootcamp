@@ -33,12 +33,11 @@ Securing a Cloud PC
 
 Managing a Cloud PC
 
-1. Assign Apps
-2. Deploy M365 Apps
-3. Resize
-4. Reprovision
-5. Restore
-6. Manage RDP Settings
+1. Deploy M365 Apps
+2. Resize
+3. Reprovision
+4. Restore
+5. Manage RDP Settings
 
 ## _optional_ Module 4 Deprovisioning Cloud PCs
 

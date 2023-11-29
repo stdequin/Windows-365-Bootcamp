@@ -24,4 +24,4 @@ You can come back to the app later and check the Device Install status for your 
 
 ## Learning Resources
 
-[Deploying Windows Apps using Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-windows-10-app-deploy)https://learn.microsoft.com/en-us/mem/intune/apps/apps-windows-10-app-deploy)
+[Deploying Windows Apps using Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-windows-10-app-deploy)

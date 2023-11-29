@@ -11,16 +11,17 @@ Deploy a modern store app (Adobe Acrobat Reader) using Intune to your Cloud PC's
 ## Deploying the Store App
 
 Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
-1. Open Endpoint Security
-2. Select Security Baselines -> Windows 365 Security Baseline
-3. Select "Create Profile" and enter a name of your choice.
-4. Select next on the configuration settings page. (Note - if you wanted to adjust the policy recommendations, you could do so here).
+
+1. Apps -> Windows -> Add
+2. Select App Type "Microsoft Store App (new)"
+3. Search the Microsot Store App (new) catalog and find "Adobe Acrobat Reader" -> Next
+4. Assign the app as Required to the Dynamic Cloud PC group you created earlier.
 5. Select next on the Scope Tags page
 6. On the Assignments page, select "Add Groups" and select the dynamic group you created in Module 1.
-7. Select Create
+7. Next -> Create
 
-You can come back to the properties of the security baseline later, and see under the Monitor tab, the state of the policies applying to the Cloud PCs
+You can come back to the app later and check the Device Install status for your Cloud PCs
 
 ## Learning Resources
 
-[Deploying Security Baslines](https://learn.microsoft.com/en-us/windows-365/enterprise/deploy-security-baselines)
+[Deploying Windows Apps using Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/apps/apps-windows-10-app-deploy)https://learn.microsoft.com/en-us/mem/intune/apps/apps-windows-10-app-deploy)

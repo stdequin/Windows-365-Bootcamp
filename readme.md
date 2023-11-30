@@ -40,11 +40,11 @@ Managing a Cloud PC
 4. [Restore](Module3/restore.md)
 5. [Manage Settings with Settings Catalog](Module3/managesettings.md)
 
-## _optional_ Module 4 Deprovisioning Cloud PCs
+## _optional_ Module 4 Other Cloud PCs actions & management
 
-1. Remove licenses
-2. Stop grace period
-3. Move a Cloud PC
+1. Remove licenses & stop grace period
+2. Move a Cloud PC
+3. Configure an Admin RBAC role for Cloud PCs
 4. Configure Admin Alerts for Provisioning Failures
 
 ## _optional_ Module 5 Test the End User Experience

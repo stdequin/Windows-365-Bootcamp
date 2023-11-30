@@ -26,6 +26,15 @@ For example - you may want to block the users from copying & pasting content fro
 | Settings | Set time limit for active but idle Remote Desktop Services sessions (User) = 15 Minutes |
 | Assignment | sg-Frontline |
 
+3. Create a Settings Catalog policy that sets OneDrive to silently sign in with the logged on user.
+
+| Setting | Value |
+| -- | -- |
+| Configuration Profile | Settings Catalog |
+| Admin Template | OneDrive | 
+| Settings | Silently sign in users to the OneDrive sync app with their Windows credentials = Enabled |
+| Assignment | sg-Frontline </br> sg-Engineering |
+
 ## 1. RDP Settings 
 
 Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
@@ -54,7 +63,22 @@ Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
 8. Next -> Next
 9. Assign the policy to your "sg-Frontline" users.
 
+## 3. OneDrive Silent Config
+
+Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
+
+1. Devices -> Configuration Profiles
+2. Create -> New Policy
+3. Platform = "Windows 10 or later", Profile Type = "Settings catalog" -> Create
+4. Name = "OneDrive Configuration"
+5. Add Settings-> Search for "OneDrive"
+6. Select "Silently sign in users to the OneDrive sync app with their Windows credentials" = Enabled
+7. Enable the setting
+8. Next -> Next
+9. Assign the policy to your "sg-Frontline" and "sg-Engineering" users.
 
 ## Learning Resources
 
-[Point in time restore for Windows 365 Enterprise](https://learn.microsoft.com/en-us/windows-365/enterprise/restore-overview)
+[Set idle session limits for Windows 365 Frontlie](https://learn.microsoft.com/en-us/windows-365/enterprise/frontline-cloud-pc-session-time-limits)
+[Manage RDP redirections for Cloud PCs](https://learn.microsoft.com/en-us/windows-365/enterprise/manage-rdp-device-redirections)
+[Configuring Optimal M365 Experience for Cloud Native Endpoints](https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints#step-8---configure-settings-for-an-optimal-microsoft-365-experience)

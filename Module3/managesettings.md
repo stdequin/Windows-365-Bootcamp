@@ -1,27 +1,44 @@
-# Manage RDP Settings for a Windows 365 Cloud PC
+# Manage Settings for a Windows 365 Cloud PC
 
 ## Introduction
 
-Windows 365 Cloud PCs can be restored to a previous point-in-time snapshot. The system automatically takes 4 long term restore points (1 every 7 days - non configurable), as well as up to 10 admin configured restore points, depending on the snapshot interval specified. For example, a restore point every 4 hours, would create 10 restore points going back a maximum of 40 hours. It is also possible to allow end users to restore their own Cloud PC - useful for power user scenarios.
+Windows 365 Cloud PCs can be managed using Intune Configuration Settings the same as you would a physical PC. In addition, there are specific settings only applicable to Cloud PC's due to the remote connectivity (RDP) of these PC's. These settings may enhance security, or allow for additional granular controls.
 
-**Q.** What should you consider before performing a restore on a Cloud PC, and if a restore fails, what next?
+For example - you may want to block the users from copying & pasting content from inside their Cloud PC to their local desktop. This can be useful for users you know will consume BYOD scenarios and want to apply additional controls to prevent data leakage.
 
 ## Task
 
+1. Create a Settings Catalog policy that changes the RDP settings to block Drive Mapping and Copy & Paste from the local client - assign this to your "sg-Engeering" group.
+2. Create a Settings Catalog policy that configures the RDP Idle Session timeout to 15 minutes. Assign this to your "sg-Frontline" group.
 
-
-## Configure the restore points for users
+## 1. RDP Settings 
 
 Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
 
-1. Devices -> Windows 365 -> User settings
-2. Create a new user setting policy (+Add)
-3. Give your policy a name
-4. Select "Enable users to initiate restore service"
-5. Specify the "frequency of restore-point service" to 12 hours.
-6. Next
-7. Assign the policy to "sg-engineering"
-8. Next -> Create
+1. Devices -> Configuration Profiles
+2. Create -> New Policy
+3. Platform = "Windows 10 or later", Profile Type = "Settings catalog" -> Create
+4. Name = "RDP Settings"
+5. Add Settings-> Search for "Device and Resource Redirection"
+6. Select "Do not allow clipboard redirection" and "Do not allow drive redirection"
+7. Enable both of these settings
+8. Next -> Next
+9. Assign the policy to your "sg-Engineering" users.
+ 
+## 2. Idle Time Out Settings
+
+Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
+
+1. Devices -> Configuration Profiles
+2. Create -> New Policy
+3. Platform = "Windows 10 or later", Profile Type = "Settings catalog" -> Create
+4. Name = "Frontline Idle Timeout "
+5. Add Settings-> Search for "Session time limits"
+6. Select "Set time limit for active but idle Remote Desktop Services sessions (User)"
+7. Enable the settings and select "15 minutes"
+8. Next -> Next
+9. Assign the policy to your "sg-Frontline" users.
+
 
 ## Learning Resources
 

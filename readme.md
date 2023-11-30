@@ -18,7 +18,7 @@ Provision and Deploy a Windows 365 Enterprise
 1. [Assign Licenses to users](Module1/Licenses.md)
 2. [Create a provisioning policy](Module1/ProvisioningPolicy.md)
 3. [Create a dynamic group for Cloud PCs](Module1/dynamicgroup.md)
-4. Make users local administrators of their Cloud PC
+4. [Make users local administrators of their Cloud PC](Module1/localadmin.md)
 
 Provision and Deploy Windows 365 Frontline
 1. [Create a user group](Module1/frontlinegroup.md)

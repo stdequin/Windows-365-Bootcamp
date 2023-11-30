@@ -35,7 +35,7 @@ Managing a Cloud PC
 
 1. [Deploy Apps](Module3/deployapps.md)
 2. [Resize](Module3/resize.md)
-3. Reprovision
+3. [Reprovision](Module3/reprovision.md)
 4. Restore
 5. Manage RDP Settings
 

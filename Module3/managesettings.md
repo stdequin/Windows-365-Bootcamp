@@ -80,5 +80,7 @@ Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
 ## Learning Resources
 
 [Set idle session limits for Windows 365 Frontlie](https://learn.microsoft.com/en-us/windows-365/enterprise/frontline-cloud-pc-session-time-limits)
+
 [Manage RDP redirections for Cloud PCs](https://learn.microsoft.com/en-us/windows-365/enterprise/manage-rdp-device-redirections)
+
 [Configuring Optimal M365 Experience for Cloud Native Endpoints](https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints#step-8---configure-settings-for-an-optimal-microsoft-365-experience)

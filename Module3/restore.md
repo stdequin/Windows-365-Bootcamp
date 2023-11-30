@@ -4,7 +4,6 @@
 
 Windows 365 Cloud PCs can be restored to a previous point-in-time snapshot. 
 
-****
 
 ## Task
 

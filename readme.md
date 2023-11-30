@@ -38,9 +38,13 @@ Managing a Cloud PC
 2. [Resize](Module3/resize.md)
 3. [Reprovision](Module3/reprovision.md)
 4. [Restore](Module3/restore.md)
-5. Manage RDP Settings
+5. [Manage Settings with Settings Catalog](Module3/managesettings.md)
 
 ## _optional_ Module 4 Deprovisioning Cloud PCs
 
 1. Remove licenses
 2. Stop grace period
+3. Move a Cloud PC
+4. Configure Admin Alerts for Provisioning Failures
+
+## _optional_ Module 5 Test the End User Experience

@@ -16,9 +16,16 @@ Resize the Cloud PC to
 
 Use the Microsoft Intune Admin Center (https://intune.microsoft.com).
 
-1. Devices 
+1. Devices -> Windows 365 -> All Cloud PCs
+2. Select the device ou want to resize
+3. Select "Resize" from the top actions menu.
+4. Select the specification you want to resize to (2vCPU, 8GB, 256GB)
+5. Select Resize
+6. Under the "All Cloud PCs" view, refresh the page to see the device is resizing.
 
-You can come back to the app later and check the Device Install status for your Cloud PCs
+During a resize the Cloud PC is shut down, resized, and powered back on. Ensure that you do the action out of hours, or when the user is not using their Cloud PC to prevent data loss.
+
+**Q.** Can you resize back down to the 2vCPU,4GB,128GB specification?
 
 ## Learning Resources
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Windows 365 Cloud PCs can be resized (up size and down size) to allow for changing end user needs, and to optimize the end user experience. A resize function is lossless, and the users Cloud PC is preserved through the process so they can continue working after the resize without loosing apps or data.
+Windows 365 Cloud PCs can be reprovisioned, using the latest settings in the provisioning policy. This is equivilent of rebuilding or reissuing a physical device to an end user. It is useful in scenarios where the Cloud PC is unresponsive, and the restore action has not been able to return the Cloud PC to a good working state.
 
 ## Task
 

@@ -9,7 +9,22 @@ For example - you may want to block the users from copying & pasting content fro
 ## Task
 
 1. Create a Settings Catalog policy that changes the RDP settings to block Drive Mapping and Copy & Paste from the local client - assign this to your "sg-Engeering" group.
+
+| Setting | Value |
+| -- | -- |
+| Configuration Profile | Settings Catalog |
+| Admin Template | Device and Resource Redirection | 
+| Settings | Do not allow clipboard = Enabled </br> Do not allow drive redirection = Enabled |
+| Assignment | sg-Engineering |
+  
 2. Create a Settings Catalog policy that configures the RDP Idle Session timeout to 15 minutes. Assign this to your "sg-Frontline" group.
+
+| Setting | Value |
+| -- | -- |
+| Configuration Profile | Settings Catalog |
+| Admin Template | Session Time Limits | 
+| Settings | Set time limit for active but idle Remote Desktop Services sessions (User) = 15 Minutes |
+| Assignment | sg-Frontline |
 
 ## 1. RDP Settings 
 

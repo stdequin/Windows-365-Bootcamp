@@ -49,4 +49,8 @@ Managing a Cloud PC
 
 ## _optional_ Module 5 Test the End User Experience
 
+1. Login as a provisioned user @ (https://windows365.microsoft.com)
+2. Test out Windows 365 Switch
+3. Test out Windows 365 Boot
+
 

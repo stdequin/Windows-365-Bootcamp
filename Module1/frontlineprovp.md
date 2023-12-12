@@ -30,7 +30,7 @@ Create a provisioning policy with the following settings :-
 2. Go to Devices -> Provisioning\Windows 365 -> Provisioning Policies
 3. Select "Create Policy"
 4. Enter a name for your policy, and a description if required.
-5. Select the License Type "Enterprise"
+5. Select the License Type "Frontline"
 6. Select the Join Type "Microsoft Entra Join"
 7. Selet the Network as "Microsoft Hosted"
 8. Select geography as "European Union"
